@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="2px"
+    android:keyHeight="@dimen/key_height"
+    android:keyWidth="9%p"
+    android:verticalGap="0px" >
+
+    <Row>
+        <Key
+            android:codes="1142"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/daad"
+            android:keyOutputText="ض"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1118"
+            android:keyIcon="@drawable/sad"
+            android:keyOutputText="ص"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1140"
+            android:keyIcon="@drawable/seh"
+            android:keyOutputText="ث"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1110"
+            android:keyIcon="@drawable/kaaf"
+            android:keyOutputText="ق"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1115"
+            android:keyIcon="@drawable/feeh"
+            android:keyOutputText="ف"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1111"
+            android:keyIcon="@drawable/a8een"
+            android:keyOutputText="غ"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1112"
+            android:keyIcon="@drawable/aeen"
+            android:keyOutputText="ع"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1122"
+            android:keyIcon="@drawable/heehh"
+            android:keyOutputText="ه"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1133"
+            android:keyIcon="@drawable/h5ah"
+            android:keyOutputText="خ"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1137"
+            android:keyIcon="@drawable/hah"
+            android:keyOutputText="ح"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1123"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/gem"
+            android:keyOutputText="ج"
+            android:keyWidth="9%p" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="1120"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/sheen"
+            android:keyOutputText="ش"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1132"
+            android:keyIcon="@drawable/seen"
+            android:keyOutputText="س"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1113"
+            android:keyIcon="@drawable/yeeeeh"
+            android:keyOutputText="ي"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1119"
+            android:keyIcon="@drawable/beh"
+            android:keyOutputText="ب"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1129"
+            android:keyIcon="@drawable/lam"
+            android:keyOutputText="ل"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1125"
+            android:keyIcon="@drawable/alef"
+            android:keyOutputText="ا"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1127"
+            android:keyIcon="@drawable/teh"
+            android:keyOutputText="ت"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1131"
+            android:keyIcon="@drawable/mem"
+            android:keyOutputText="م"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1130"
+            android:keyIcon="@drawable/noon"
+            android:keyOutputText="ن"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1124"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/keaf"
+            android:keyOutputText="ك"
+            android:keyWidth="9%p" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="1146"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/zaah"
+            android:keyOutputText="ظ"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1116"
+            android:keyIcon="@drawable/taah"
+            android:keyOutputText="ط"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1141"
+            android:keyIcon="@drawable/zal"
+            android:keyOutputText="ذ"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1128"
+            android:keyIcon="@drawable/dal"
+            android:keyOutputText="د"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1139"
+            android:keyIcon="@drawable/zen"
+            android:keyOutputText="ز"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1117"
+            android:keyIcon="@drawable/reh"
+            android:keyOutputText="ر"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1114"
+            android:keyIcon="@drawable/tehmarbota"
+            android:keyOutputText="ة"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1126"
+            android:keyIcon="@drawable/woow"
+            android:keyOutputText="و"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="1134"
+            android:keyIcon="@drawable/yehlayna"
+            android:keyOutputText="ى"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="-5"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/sym_keyboard_delete"
+            android:keyWidth="15%p" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom" >
+        <Key
+            android:codes="-3"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/sym_keyboard_done"
+            android:keyWidth="15%p" />
+        <Key
+            android:codes="-2"
+            android:keyLabel="ABC"
+            android:keyWidth="15%p" />
+        <Key
+            android:codes="32"
+            android:isRepeatable="true"
+            android:keyIcon="@drawable/sym_keyboard_space"
+            android:keyWidth="20%p" />
+        <Key
+            android:layout_gravity="center"
+            android:codes="1138"
+            android:keyIcon="@drawable/yehhamza"
+            android:keyOutputText="ئ"
+            android:keyWidth="9%p" />
+        <Key
+            android:layout_gravity="center"
+            android:codes="1144"
+            android:keyIcon="@drawable/hamza"
+            android:keyOutputText="ء"
+            android:keyWidth="9%p" />
+        <Key
+            android:layout_gravity="center"
+            android:codes="1145"
+            android:keyIcon="@drawable/wawhamza"
+            android:keyOutputText="ٶ"
+            android:keyWidth="9%p" />
+        <Key
+            android:codes="10"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/sym_keyboard_return"
+            android:keyWidth="20%p" />
+    </Row>
+
+</Keyboard>
